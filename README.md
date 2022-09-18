@@ -681,6 +681,35 @@ print(list3)
 
 ```
 
+## Functions
+
+###
+
+```kotlin
+
+
+```
+
+## Classes
+
+###
+
+```kotlin
+
+
+```
+
+## Kotlin Essentials: Beyond the Basics
+
+###
+
+```kotlin
+
+
+```
+
+## Functional Manipulation
+
 ###
 
 ```kotlin
