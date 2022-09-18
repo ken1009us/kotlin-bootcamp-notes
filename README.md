@@ -47,11 +47,6 @@ fish = fish / 30
 ### Boxing
 
 ```kotlin
-// Boxing describes the process of converting a primitive value to an object and unboxing therefore the inverse
-// All numerical types in Kotlin have a supertype called Number
-// Store value one in a variable of type Number
-// It'll need to be placed in an object wrapper
-// This is called boxing
 val boxed: Number = 1
      ^       ^      ^
     name    type  value
@@ -59,12 +54,10 @@ val boxed: Number = 1
 val num: Int = 2
 val dob: Double = 2.0
 
-// Both lines do the exact same thing internally
+// Same works
 Integer x = 42;
 Integer y = Integer.valueOf(42);
 
-// Eventhough this is very handy, it unfortunately leads to a decrease in performance
-// We can avoid creating these objets wrappers by not storing numbers in objects
 // There are two types of variables in Kotlin
 // Changeable & Unchangeable
 //   var           val
@@ -84,7 +77,7 @@ var fish = 2
 fish = 50
 // Type is inferred meaning that compiler can figure out the type from the context
 // Even so the type is inferred, it becomes fixed at compile time,
-// So you cannot change a type of a varible in kotlin once it's type has been determined.
+// So you cannot change a type of a varible in kotlin once its type has been determined.
 fish = "Bubbles" // ERROR
 
 // We can use variables in operations and there is no punctuation at the end
